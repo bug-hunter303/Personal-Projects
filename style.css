@@ -85,14 +85,27 @@ body{
 }
 
 .col img{
-    width: 40px;
+    width: 45px;
     margin-right: 10px;
 }
 
-.humidity, .wind{
-    font-size: 28px;
+.humidity{
+    font-size: 20px;
     margin-top: -6px;
 }
+
+.wind{
+    font-size: 15px;
+    margin-top: -6px;
+    font-weight: normal;
+}
+
+.windImage{
+    height: 5px;
+    margin-right: 10px;
+    width: 5px;
+}
+
 .weather{
     display: none;
 }
