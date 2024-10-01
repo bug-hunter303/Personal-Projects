@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="rop final.css">
+</head>
+
+<body>
+    <h5 class="title"> ROCK PAPER SCISSORS </h5>
+    <button onclick="
+    playGame('ROCK');
+    
+    " class="button" ><img src="images/ROCK-emoji.png" class="options"> </button>
+
+
+
+    <button  onclick="
+       playGame('SCISSORS');
+       
+       " class="button"> <img src="images/SCISSORS-emoji.png" class="options"> </button>
+
+
+    <button onclick="
+        playGame('PAPER');
+        
+        " class="button"> <img src="images/PAPER-emoji.png" class="options"> </button> 
+
+    <p class="js-Result result"> </p>
+    
+    <p class="js-Moves"></p>
+
+    <p class="js-Score" class="score"> </p>
+
+    <button onclick="
+    score.Win=0;
+    score.Loss=0;
+    score.Tie=0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+    " class="resetButton"> Reset Score </button>
+    
+    <script src="rop final.js"></script>
+</body>
+</html>
